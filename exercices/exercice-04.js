@@ -17,6 +17,7 @@
 // TODO: écris ta solution ici.
 const nombres = [10, 20, 30, 40];
 
+
 for (let i = 0; i < nombres.length; i++) {
   console.log(nombres[i] * 2);
 }
