@@ -15,3 +15,6 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
+const supprimerDoublonsExpress = (tableau) => [...new Set(tableau)];
+
+console.log(supprimerDoublonsExpress([1, 2, 2, 3, 4, 4, 5]));

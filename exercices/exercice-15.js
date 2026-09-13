@@ -15,3 +15,36 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
+const fusionnerTrie = (tab1, tab2) => {
+  const resultat = [];
+  let i = 0; 
+  let j = 0; 
+
+ 
+  while (i < tab1.length && j < tab2.length) {
+    if (tab1[i] < tab2[j]) {
+      resultat.push(tab1[i]);
+      i++;
+    } else {
+      resultat.push(tab2[j]);
+      j++;
+    }
+  }
+
+ 
+  while (i < tab1.length) {
+    resultat.push(tab1[i]);
+    i++;
+  }
+
+ 
+  while (j < tab2.length) {
+    resultat.push(tab2[j]);
+    j++;
+  }
+
+  return resultat;
+};
+
+
+console.log(fusionnerTrie([1, 3, 5], [2, 4, 6])); 
