@@ -37,7 +37,6 @@ const fusionnerTrie = (tab1, tab2) => {
     i++;
   }
 
- 
   while (j < tab2.length) {
     resultat.push(tab2[j]);
     j++;
@@ -45,6 +44,5 @@ const fusionnerTrie = (tab1, tab2) => {
 
   return resultat;
 };
-
 
 console.log(fusionnerTrie([1, 3, 5], [2, 4, 6])); 

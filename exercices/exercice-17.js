@@ -4,8 +4,8 @@
  * OCCURRENCES
  * ─────────────────────────────────────────────────────────────
  *
- * 🎯 MISSION
- * Créez une fonction qui prend un tableau de mots ["pomme", "banane", "pomme", "orange", "banane", "pomme"]. Comptez combien de fois chaque élément apparaît. (Vous pouvez afficher : "pomme: 3, banane: 2, orange: 1").
+ * 🎯 MISSIONCréez
+ *  une fonction qui prend un tableau de mots ["pomme", "banane", "pomme", "orange", "banane", "pomme"]. Comptez combien de fois chaque élément apparaît. (Vous pouvez afficher : "pomme: 3, banane: 2, orange: 1").
  *
  * 📖 Consigne détaillée : ../03-exercices.md#exercice-17
  * ▶️ Commande : node day04/exercices/exercice-17.js

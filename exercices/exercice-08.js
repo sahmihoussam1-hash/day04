@@ -35,7 +35,7 @@ const trouverMinMax = (tableau) => {
 };
 
 
-const mesNombres = [24, 5, 19, 3, 20, 5, 36];
+const mesNombres = [24, 5, 19, 3, 20, 5, 3];
 const resultat = trouverMinMax(mesNombres);
 
 console.log("Le plus petit nombre est :", resultat[0]); 

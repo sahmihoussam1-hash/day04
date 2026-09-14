@@ -28,11 +28,9 @@ const sontEgaux = (tab1, tab2) => {
       return false; 
     }
   }
-
  
   return true;
 };
-
 
 console.log(sontEgaux([1, 2, 3], [1, 2, 3])); 
 console.log(sontEgaux([1, 2, 3], [1, 2, 4])); 
